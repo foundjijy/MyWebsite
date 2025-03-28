@@ -22,5 +22,15 @@
     <footer>
         <p>© 2025 MyWebsite</p>
     </footer>
+    <script>
+        document.getElementById('catButton').addEventListener('click', function() {
+            var catImageContainer = document.getElementById('catImageContainer');
+            if (catImageContainer.style.display === 'none') {
+                catImageContainer.style.display = 'flex';
+            } else {
+                catImageContainer.style.display = 'none';
+            }
+        });
+    </script>
 </body>
 </html>
