@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>サンプルウェブページ</title>
+    <title>サンプルWebページ</title>
     <link rel="stylesheet" href="styles.css"> <!-- 外部CSSファイルのリンク -->
 </head>
 <body>
@@ -15,13 +15,16 @@
         <p>HTMLとCSSを使って、ウェブページの構造とデザインを作成しています。</p>
         <p>おまんじゅとおかにゃはあと3日したら会えるのだよ</p>p
     </section>
-    <button id="catButton" class="cat-button">ネコを見る</button>
-    <div id="catImageContainer" class="cat-image-container" style="display:none;">
-        <img src="path/to/your/cat-image.jpg" alt="ネコの画像" class="cat-image">
-    </div>
     <footer>
         <p>© 2025 MyWebsite</p>
     </footer>
+    
+    <!-- ネコの画像を表示するボタンと画像のコンテナ -->
+    <button id="catButton" class="cat-button">ネコを見る</button>
+    <div id="catImageContainer" class="cat-image-container" style="display:none;">
+        <img src="cat-images/cat.jpg" alt="ネコの画像" class="cat-image">
+    </div>
+
     <script>
         document.getElementById('catButton').addEventListener('click', function() {
             var catImageContainer = document.getElementById('catImageContainer');
