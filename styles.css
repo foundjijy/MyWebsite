@@ -62,3 +62,11 @@ footer {
     max-height: 100%;
     border-radius: 50%;
 }
+
+/* 親要素に適用 */
+.container {
+  width: 100%;
+  max-width: 100%; /* 必要に応じて最大幅を設定 */
+  overflow-wrap: break-word; /* テキストが自動的に改行されるようにします */
+  word-break: break-all; /* 単語が部分的に改行されるようにします */
+}
