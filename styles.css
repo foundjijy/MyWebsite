@@ -28,7 +28,7 @@ footer {
     color: white; /* 文字色 */
     text-align: center;
     padding: 10px 0; /* 上下の余白 */
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
